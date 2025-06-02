@@ -90,7 +90,7 @@ WSGI_APPLICATION = 'ecommerce.wsgi.application'
 
 DATABASES = {
     'default': 
-        dj_database_url.parse(config('DATABASE_URL'))
+        dj_database_url.parse(config('DATABASE_URL')),
 }
 
 
